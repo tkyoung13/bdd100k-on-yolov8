@@ -129,8 +129,8 @@ if __name__ == "__main__":
     # soda10m
     category_mapping = {1: 0, 2: 1, 3: 2, 4: 3, 6: 5}
     # 设置路径并调用转换函数
-    json_file_path = '/home/yangtengkun/yolov8/data/CODA2022/annotations_val.json'  # 替换为你的JSON文件路径
-    output_dir = '/home/yangtengkun/yolov8/data/CODA2022/val/labels'  # 替换为你想保存标签文件的目录
+    json_file_path = '/home/yangtengkun/yolov8/data/CODA2022/annotations_test.json'  # 替换为你的JSON文件路径
+    output_dir = '/home/yangtengkun/yolov8/data/CODA2022/test/labels'  # 替换为你想保存标签文件的目录
 
     # 确保输出目录存在
     if not os.path.exists(output_dir):
